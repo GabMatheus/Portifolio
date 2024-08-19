@@ -26,4 +26,4 @@ function changeH4Color() {
     h4Element.style.color = colors[colorIndex];
     colorIndex = (colorIndex + 1) % colors.length; // Loop nas cores
 }
-setInterval(changeH4Color, 2000);
+setInterval(changeH4Color, 1500);
